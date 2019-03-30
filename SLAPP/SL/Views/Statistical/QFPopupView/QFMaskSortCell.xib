@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="QFMaskSortCell" rowHeight="40" id="KGk-i7-Jjw" customClass="QFMaskSortCell">
+            <rect key="frame" x="0.0" y="0.0" width="160" height="40"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="160" height="39.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p_menu_button" translatesAutoresizingMaskIntoConstraints="NO" id="3hk-hm-XjZ">
+                        <rect key="frame" x="0.0" y="0.0" width="160" height="39.5"/>
+                        <color key="backgroundColor" red="0.20784313725490194" green="0.2196078431372549" blue="0.27058823529411763" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="按更新时间" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QJD-T5-fov">
+                        <rect key="frame" x="34.5" y="12" width="105.5" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.47843137254901957" green="0.49019607843137253" blue="0.56862745098039214" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p_menu_down" translatesAutoresizingMaskIntoConstraints="NO" id="g0j-2C-y4F">
+                        <rect key="frame" x="145" y="14.5" width="5" height="11"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="5" id="9xy-Cd-tUh"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p_m_s_edittime" translatesAutoresizingMaskIntoConstraints="NO" id="yrs-I5-Ir3">
+                        <rect key="frame" x="10" y="10" width="19.5" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="7Bv-5F-oOe"/>
+                            <constraint firstAttribute="height" constant="20" id="o9y-oK-YOZ"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="3hk-hm-XjZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="1gJ-LO-cWY"/>
+                    <constraint firstAttribute="bottom" secondItem="3hk-hm-XjZ" secondAttribute="bottom" id="4mW-Z4-Lqq"/>
+                    <constraint firstItem="QJD-T5-fov" firstAttribute="centerY" secondItem="yrs-I5-Ir3" secondAttribute="centerY" id="8QX-ma-AFd"/>
+                    <constraint firstItem="3hk-hm-XjZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="N1e-t2-bq2"/>
+                    <constraint firstItem="QJD-T5-fov" firstAttribute="leading" secondItem="yrs-I5-Ir3" secondAttribute="trailing" constant="5" id="NlR-0U-6Pn"/>
+                    <constraint firstItem="g0j-2C-y4F" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="O8P-MO-ScP"/>
+                    <constraint firstItem="g0j-2C-y4F" firstAttribute="leading" secondItem="QJD-T5-fov" secondAttribute="trailing" constant="5" id="bLj-oU-lMb"/>
+                    <constraint firstItem="yrs-I5-Ir3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="ks4-ha-ZX0"/>
+                    <constraint firstAttribute="trailing" secondItem="g0j-2C-y4F" secondAttribute="trailing" constant="10" id="pYo-Tu-HKB"/>
+                    <constraint firstAttribute="trailing" secondItem="3hk-hm-XjZ" secondAttribute="trailing" id="uyj-TM-0kf"/>
+                    <constraint firstItem="QJD-T5-fov" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="wf5-9B-ti3"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="statusImageView" destination="g0j-2C-y4F" id="HiA-Fx-wYc"/>
+                <outlet property="titleLabel" destination="QJD-T5-fov" id="l4T-hu-iXf"/>
+                <outlet property="tyoeImageView" destination="yrs-I5-Ir3" id="QiR-JX-heh"/>
+            </connections>
+            <point key="canvasLocation" x="-55" y="50"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="p_m_s_edittime" width="13" height="13"/>
+        <image name="p_menu_button" width="183" height="35"/>
+        <image name="p_menu_down" width="5" height="11"/>
+    </resources>
+</document>

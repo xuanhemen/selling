@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="60" id="KGk-i7-Jjw" customClass="QFDepCell" customModule="SLAPP" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qf_depImage" translatesAutoresizingMaskIntoConstraints="NO" id="0EG-Qq-IpB">
+                        <rect key="frame" x="15" y="10" width="39.5" height="39.5"/>
+                        <color key="backgroundColor" red="1" green="0.22114702289999999" blue="0.1236121979" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="0EG-Qq-IpB" secondAttribute="height" id="VmZ-BV-Wzg"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1n4-ip-Sfl">
+                        <rect key="frame" x="69.5" y="10" width="200.5" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Arrow" translatesAutoresizingMaskIntoConstraints="NO" id="Kjv-3e-kc3">
+                        <rect key="frame" x="299.5" y="19" width="10.5" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Kjv-3e-kc3" secondAttribute="height" multiplier="12:23" id="Wvb-Kp-bCY"/>
+                            <constraint firstAttribute="height" constant="20" id="sdQ-Um-Cg8"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AOH-yG-38y">
+                        <rect key="frame" x="260" y="0.0" width="29.5" height="59.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="AOH-yG-38y" secondAttribute="height" multiplier="0.5" id="mSQ-wI-NIu"/>
+                        </constraints>
+                        <state key="normal" image="ch_product_edit_icon"/>
+                        <connections>
+                            <action selector="editButtonClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="ISK-V1-HgR"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gaz-pr-COJ">
+                        <rect key="frame" x="230.5" y="0.0" width="29.5" height="59.5"/>
+                        <state key="normal" image="ch_delete_ico"/>
+                        <connections>
+                            <action selector="deleteButtonClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="csk-Fd-irE"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="1n4-ip-Sfl" firstAttribute="leading" secondItem="0EG-Qq-IpB" secondAttribute="trailing" constant="15" id="3BK-5f-iNP"/>
+                    <constraint firstAttribute="trailing" secondItem="Kjv-3e-kc3" secondAttribute="trailing" constant="10" id="5pR-V8-erW"/>
+                    <constraint firstItem="1n4-ip-Sfl" firstAttribute="top" secondItem="0EG-Qq-IpB" secondAttribute="top" id="6c1-ck-TMc"/>
+                    <constraint firstAttribute="bottom" secondItem="gaz-pr-COJ" secondAttribute="bottom" id="CjZ-ix-rjx"/>
+                    <constraint firstItem="AOH-yG-38y" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="JDY-UC-YmH"/>
+                    <constraint firstItem="0EG-Qq-IpB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="O9M-Yv-PcE"/>
+                    <constraint firstItem="Kjv-3e-kc3" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="PBi-S7-IkQ"/>
+                    <constraint firstAttribute="bottom" secondItem="0EG-Qq-IpB" secondAttribute="bottom" constant="10" id="WbX-tS-UQf"/>
+                    <constraint firstAttribute="trailing" secondItem="1n4-ip-Sfl" secondAttribute="trailing" constant="50" id="XRY-D7-O3Y"/>
+                    <constraint firstItem="gaz-pr-COJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ZKu-8V-B9V"/>
+                    <constraint firstItem="AOH-yG-38y" firstAttribute="leading" secondItem="gaz-pr-COJ" secondAttribute="trailing" id="dPZ-A7-vPz"/>
+                    <constraint firstItem="0EG-Qq-IpB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="lPj-vq-ndu"/>
+                    <constraint firstItem="gaz-pr-COJ" firstAttribute="width" secondItem="gaz-pr-COJ" secondAttribute="height" multiplier="0.5" id="mIO-9I-4k6"/>
+                    <constraint firstAttribute="bottom" secondItem="AOH-yG-38y" secondAttribute="bottom" id="tx2-EO-jYg"/>
+                    <constraint firstItem="Kjv-3e-kc3" firstAttribute="leading" secondItem="AOH-yG-38y" secondAttribute="trailing" constant="10" id="us2-Wx-szb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="cellImageView" destination="0EG-Qq-IpB" id="8Xn-gN-N52"/>
+                <outlet property="cellNameLabel" destination="1n4-ip-Sfl" id="acB-PI-YqM"/>
+                <outlet property="deleteBtn" destination="gaz-pr-COJ" id="iQs-fh-UQZ"/>
+                <outlet property="editButton" destination="AOH-yG-38y" id="YBG-zM-4jU"/>
+            </connections>
+            <point key="canvasLocation" x="26" y="60"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Arrow" width="13" height="23"/>
+        <image name="ch_delete_ico" width="17" height="17"/>
+        <image name="ch_product_edit_icon" width="17" height="17"/>
+        <image name="qf_depImage" width="124" height="124"/>
+    </resources>
+</document>

@@ -1,0 +1,6 @@
+framework module LJContactManager {
+  umbrella header "LJContactManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

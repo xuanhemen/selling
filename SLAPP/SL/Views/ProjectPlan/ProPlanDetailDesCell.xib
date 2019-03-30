@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProPlanDetailDesCell" rowHeight="93" id="KGk-i7-Jjw" customClass="ProPlanDetailDesCell" customModule="SLAPP" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="93"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="92.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t49-w8-8or">
+                        <rect key="frame" x="10" y="10" width="300" height="82.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="计划说明:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QR1-fd-bYW">
+                                <rect key="frame" x="10" y="10" width="280" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="UXl-6X-j4y"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lZo-gQ-Lau">
+                                <rect key="frame" x="10" y="50" width="280" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="QR1-fd-bYW" firstAttribute="leading" secondItem="t49-w8-8or" secondAttribute="leading" constant="10" id="BOd-gA-FK4"/>
+                            <constraint firstItem="lZo-gQ-Lau" firstAttribute="leading" secondItem="t49-w8-8or" secondAttribute="leading" constant="10" id="Glw-P2-4SP"/>
+                            <constraint firstAttribute="trailing" secondItem="lZo-gQ-Lau" secondAttribute="trailing" constant="10" id="Gny-2q-VHM"/>
+                            <constraint firstAttribute="trailing" secondItem="QR1-fd-bYW" secondAttribute="trailing" constant="10" id="Jc4-Qt-gqD"/>
+                            <constraint firstItem="lZo-gQ-Lau" firstAttribute="top" secondItem="QR1-fd-bYW" secondAttribute="bottom" constant="10" id="TQu-5E-8Nt"/>
+                            <constraint firstItem="QR1-fd-bYW" firstAttribute="top" secondItem="t49-w8-8or" secondAttribute="top" constant="10" id="cel-JO-fVP"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="lZo-gQ-Lau" secondAttribute="bottom" constant="10" id="zxf-4Y-m7t"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="t49-w8-8or" secondAttribute="bottom" id="08r-Qf-XDL"/>
+                    <constraint firstAttribute="trailing" secondItem="t49-w8-8or" secondAttribute="trailing" constant="10" id="7NZ-XA-1fu"/>
+                    <constraint firstItem="t49-w8-8or" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="dgb-rx-2Vr"/>
+                    <constraint firstItem="t49-w8-8or" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="syc-O7-WlM"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="cellDesLabel" destination="lZo-gQ-Lau" id="CpG-GV-vaC"/>
+            </connections>
+            <point key="canvasLocation" x="20" y="11.5"/>
+        </tableViewCell>
+    </objects>
+</document>

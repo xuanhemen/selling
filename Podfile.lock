@@ -1,0 +1,343 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - ASProgressPopUpView (0.9)
+  - ChameleonFramework (2.1.0):
+    - ChameleonFramework/Default (= 2.1.0)
+  - ChameleonFramework/Default (2.1.0)
+  - Charts (3.1.1):
+    - Charts/Core (= 3.1.1)
+  - Charts/Core (3.1.1)
+  - HandyJSON (4.2.1)
+  - iOS-Echarts (1.4.4)
+  - IQKeyboardManager (6.2.0)
+  - JTCalendar (2.2.4)
+  - Kingfisher (4.8.1)
+  - KMPlaceholderTextView (1.3.0)
+  - LameTool (0.0.2)
+  - LFProgressView (1.3.4)
+  - LJContactManager (1.0.6)
+  - LYEmptyView (1.1.0)
+  - Masonry (1.1.0)
+  - MJExtension (3.0.15.1)
+  - MJRefresh (3.1.15.7)
+  - NullSafe (1.2.3)
+  - pop (1.0.12)
+  - QBImagePickerController (3.4.0)
+  - R.swift (4.0.0):
+    - R.swift.Library (~> 4.0.0)
+  - R.swift.Library (4.0.0)
+  - ReactiveCocoa (7.2.0):
+    - ReactiveSwift (~> 3.1)
+  - ReactiveObjC (3.1.0)
+  - ReactiveSwift (3.1.0):
+    - Result (~> 3.2)
+  - Realm (3.7.4):
+    - Realm/Headers (= 3.7.4)
+  - Realm/Headers (3.7.4)
+  - Result (3.2.4)
+  - RongCloudIM/CallKit (2.8.32):
+    - RongCloudIM/CallLib
+    - RongCloudIM/IMKit
+  - RongCloudIM/CallLib (2.8.32):
+    - RongCloudIM/IMLib
+  - RongCloudIM/IMKit (2.8.32):
+    - RongCloudIM/IMLib
+  - RongCloudIM/IMLib (2.8.32)
+  - SCSiriWaveformView (1.1.1)
+  - SDWebImage (4.4.5):
+    - SDWebImage/Core (= 4.4.5)
+  - SDWebImage/Core (4.4.5)
+  - Siren (3.4.3)
+  - SnapKit (4.2.0)
+  - SVProgressHUD (2.2.5)
+  - SwiftyJSON (4.2.0)
+  - Toast (4.0.0)
+  - "UITableView+FDTemplateLayoutCell (1.6)"
+  - "UITextView+Placeholder (1.2.1)"
+  - UMCAnalytics (6.0.2):
+    - UMCCommon
+  - UMCCommon (2.0.0)
+  - UMCSecurityPlugins (1.0.6)
+  - UMengUShare (6.4.8.2):
+    - UMengUShare/Core (= 6.4.8.2)
+    - UMengUShare/Network (= 6.4.8.2)
+    - UMengUShare/Plugin (= 6.4.8.2)
+    - UMengUShare/Social (= 6.4.8.2)
+    - UMengUShare/UI (= 6.4.8.2)
+  - UMengUShare/Core (6.4.8.2):
+    - UMengUShare/Network
+  - UMengUShare/Network (6.4.8.2)
+  - UMengUShare/Plugin (6.4.8.2):
+    - UMengUShare/Core
+    - UMengUShare/Plugin/IDFA (= 6.4.8.2)
+  - UMengUShare/Plugin/IDFA (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/Social (6.4.8.2):
+    - UMengUShare/Core
+    - UMengUShare/Social/AlipayShare (= 6.4.8.2)
+    - UMengUShare/Social/DingDing (= 6.4.8.2)
+    - UMengUShare/Social/Douban (= 6.4.8.2)
+    - UMengUShare/Social/DropBox (= 6.4.8.2)
+    - UMengUShare/Social/Email (= 6.4.8.2)
+    - UMengUShare/Social/EverNote (= 6.4.8.2)
+    - UMengUShare/Social/Facebook (= 6.4.8.2)
+    - UMengUShare/Social/FaceBookMessenger (= 6.4.8.2)
+    - UMengUShare/Social/Flickr (= 6.4.8.2)
+    - UMengUShare/Social/GooglePlus (= 6.4.8.2)
+    - UMengUShare/Social/Instagram (= 6.4.8.2)
+    - UMengUShare/Social/Kakao (= 6.4.8.2)
+    - UMengUShare/Social/LaiWang (= 6.4.8.2)
+    - UMengUShare/Social/Line (= 6.4.8.2)
+    - UMengUShare/Social/Linkedin (= 6.4.8.2)
+    - UMengUShare/Social/Pinterest (= 6.4.8.2)
+    - UMengUShare/Social/Pocket (= 6.4.8.2)
+    - UMengUShare/Social/QQ (= 6.4.8.2)
+    - UMengUShare/Social/ReducedQQ (= 6.4.8.2)
+    - UMengUShare/Social/ReducedSina (= 6.4.8.2)
+    - UMengUShare/Social/ReducedWeChat (= 6.4.8.2)
+    - UMengUShare/Social/Renren (= 6.4.8.2)
+    - UMengUShare/Social/Sina (= 6.4.8.2)
+    - UMengUShare/Social/SMS (= 6.4.8.2)
+    - UMengUShare/Social/TencentWeibo (= 6.4.8.2)
+    - UMengUShare/Social/Tumblr (= 6.4.8.2)
+    - UMengUShare/Social/Twitter (= 6.4.8.2)
+    - UMengUShare/Social/VKontakte (= 6.4.8.2)
+    - UMengUShare/Social/WeChat (= 6.4.8.2)
+    - UMengUShare/Social/WhatsApp (= 6.4.8.2)
+    - UMengUShare/Social/YiXin (= 6.4.8.2)
+    - UMengUShare/Social/YouDao (= 6.4.8.2)
+  - UMengUShare/Social/AlipayShare (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/DingDing (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/Douban (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/DropBox (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/Email (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/EverNote (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/Facebook (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/FaceBookMessenger (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/Flickr (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/GooglePlus (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/Instagram (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/Kakao (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/LaiWang (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/Line (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/Linkedin (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/Pinterest (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/Pocket (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/QQ (6.4.8.2):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedQQ
+  - UMengUShare/Social/ReducedQQ (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/ReducedSina (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/ReducedWeChat (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/Renren (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/Sina (6.4.8.2):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedSina
+  - UMengUShare/Social/SMS (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/TencentWeibo (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/Tumblr (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/Twitter (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/VKontakte (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/WeChat (6.4.8.2):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedWeChat
+  - UMengUShare/Social/WhatsApp (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/YiXin (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/YouDao (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/UI (6.4.8.2):
+    - UMengUShare/Core
+  - WZLBadge (1.2.6)
+  - YBPopupMenu (1.1.2)
+  - YYText (1.0.7)
+  - ZHRefresh (0.1.9)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.2.1)
+  - ASProgressPopUpView (~> 0.9)
+  - ChameleonFramework
+  - Charts (= 3.1.1)
+  - HandyJSON
+  - iOS-Echarts (= 1.4.4)
+  - IQKeyboardManager
+  - JTCalendar
+  - Kingfisher (~> 4.8.1)
+  - KMPlaceholderTextView (~> 1.3.0)
+  - LameTool
+  - LFProgressView (~> 1.3.4)
+  - LJContactManager
+  - LYEmptyView (~> 1.1.0)
+  - Masonry
+  - MJExtension (~> 3.0.15.1)
+  - MJRefresh
+  - NullSafe (~> 1.2.3)
+  - pop
+  - QBImagePickerController
+  - R.swift (~> 4.0.0)
+  - R.swift.Library (~> 4.0.0)
+  - ReactiveCocoa (= 7.2.0)
+  - ReactiveObjC (= 3.1.0)
+  - Realm (= 3.7.4)
+  - Result (= 3.2.4)
+  - RongCloudIM/CallKit
+  - RongCloudIM/CallLib
+  - RongCloudIM/IMKit
+  - RongCloudIM/IMLib
+  - SCSiriWaveformView
+  - SDWebImage (~> 4.4.3)
+  - Siren (= 3.4.3)
+  - SnapKit
+  - SVProgressHUD
+  - SwiftyJSON
+  - Toast
+  - "UITableView+FDTemplateLayoutCell"
+  - "UITextView+Placeholder"
+  - UMCAnalytics
+  - UMCCommon
+  - UMCSecurityPlugins
+  - UMengUShare
+  - WZLBadge
+  - YBPopupMenu (~> 1.1.2)
+  - YYText
+  - ZHRefresh
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - ASProgressPopUpView
+    - ChameleonFramework
+    - Charts
+    - HandyJSON
+    - iOS-Echarts
+    - IQKeyboardManager
+    - JTCalendar
+    - Kingfisher
+    - KMPlaceholderTextView
+    - LameTool
+    - LFProgressView
+    - LJContactManager
+    - LYEmptyView
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - NullSafe
+    - pop
+    - QBImagePickerController
+    - R.swift
+    - R.swift.Library
+    - ReactiveCocoa
+    - ReactiveObjC
+    - ReactiveSwift
+    - Realm
+    - Result
+    - RongCloudIM
+    - SCSiriWaveformView
+    - SDWebImage
+    - Siren
+    - SnapKit
+    - SVProgressHUD
+    - SwiftyJSON
+    - Toast
+    - "UITableView+FDTemplateLayoutCell"
+    - "UITextView+Placeholder"
+    - UMCAnalytics
+    - UMCCommon
+    - UMCSecurityPlugins
+    - UMengUShare
+    - WZLBadge
+    - YBPopupMenu
+    - YYText
+    - ZHRefresh
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  ASProgressPopUpView: dfe44c9a0313ac93a8092bd361b59f52c83a7560
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  Charts: 90a4d61da0f6e06684c591e3bcab11940fe61736
+  HandyJSON: d0c5fc80204f29056d59d3e5c4587fa0b16b60a8
+  iOS-Echarts: dbc7423d861e5eedee78906a39d205b5c4da9a13
+  IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
+  JTCalendar: dce40e7e278b2d9ce747ca45d7fd369f2fda6f57
+  Kingfisher: 868c1149679a7ab6869be118faa9b5aed154aaf0
+  KMPlaceholderTextView: 2bbcd19a273648a80a61e1e48f9743a24d8930e3
+  LameTool: e987858ac6065162221c0c444d364d401a86b8c1
+  LFProgressView: 5918c40da16e2ff1415720766fc8a9cc1a1b675d
+  LJContactManager: dbc29ba9d837039c9048f48412ad493f60806a79
+  LYEmptyView: 893007305370c9c69d7dc71b4b32f9b2ee80a622
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  NullSafe: c5dde0d07fe0136a8194d6af9e285b0322b6c068
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  QBImagePickerController: d54cf93db6decf26baf6ed3472f336ef35cae022
+  R.swift: d6a5ec2f55a8441dc0ed9f1f8b37d7d11ae85c66
+  R.swift.Library: c3af34921024333546e23b70e70d0b4e0cffca75
+  ReactiveCocoa: 476dae7ca790f40d30d186a1bd7ebae4290395d5
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
+  ReactiveSwift: 5b26d2e988fe0eed2daf48c4054d1de74db50184
+  Realm: a469bb59e33f9926102ccaea4349822c53b9117e
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  RongCloudIM: 48bfc2fcb8d7cae8ce1e19cb5fb26d6d90616375
+  SCSiriWaveformView: 15b9dd6f94c7536e2032b34a35c6ff74d38c7411
+  SDWebImage: ecc03494e973b93b80213649d32175f8d2d17d4d
+  Siren: e3cf1a93fa0fa73c03452107e95e5c10768d1d08
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
+  "UITextView+Placeholder": 0c3efd97f37ea64bde7f34cc6e90fe02e87b3909
+  UMCAnalytics: 901960ede5a8a85f208bd37689ad3e607b433930
+  UMCCommon: 79b5a614c958db367113eed5740109d9a98e1223
+  UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
+  UMengUShare: 370d180101e13ee0227ae657ab119ba97243d2b3
+  WZLBadge: 9ec779dcfd94c825518b395e8315fccaabff1bfa
+  YBPopupMenu: 6efb286385d95ba5f97c58b8464ec873645e8764
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+  ZHRefresh: 876b409acc73dbd10ea4e7967e1f4aea2ef44a53
+
+PODFILE CHECKSUM: 9a7203e035ae585086473639e9729db55c1c7f6c
+
+COCOAPODS: 1.5.3

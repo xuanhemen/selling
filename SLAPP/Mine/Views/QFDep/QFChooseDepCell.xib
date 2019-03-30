@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="QFChooseDepCell" rowHeight="95" id="KGk-i7-Jjw" customClass="QFChooseDepCell" customModule="SLAPP" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Arrow" translatesAutoresizingMaskIntoConstraints="NO" id="fSF-tF-WgG">
+                        <rect key="frame" x="292" y="16.5" width="13" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="fSF-tF-WgG" secondAttribute="height" multiplier="12:23" id="aMT-JY-slb"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hSY-mE-EWp">
+                        <rect key="frame" x="69.5" y="10" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qf_depImage" translatesAutoresizingMaskIntoConstraints="NO" id="rI1-bT-NwE">
+                        <rect key="frame" x="15" y="10" width="39" height="39.5"/>
+                        <color key="backgroundColor" red="1" green="0.22114702289999999" blue="0.1236121979" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="rI1-bT-NwE" secondAttribute="height" id="ZOJ-Fw-YVG"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2vx-2F-NZc">
+                        <rect key="frame" x="270" y="0.0" width="50" height="59.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="USW-hp-lQU"/>
+                        </constraints>
+                        <connections>
+                            <action selector="chooseNext:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="eGa-fg-tcC"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="2vx-2F-NZc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="20i-FG-5DB"/>
+                    <constraint firstItem="rI1-bT-NwE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="3cn-VK-wS3"/>
+                    <constraint firstAttribute="trailing" secondItem="fSF-tF-WgG" secondAttribute="trailing" constant="15" id="ASy-0F-pd2"/>
+                    <constraint firstItem="hSY-mE-EWp" firstAttribute="top" secondItem="rI1-bT-NwE" secondAttribute="top" id="ECU-Gq-k3S"/>
+                    <constraint firstAttribute="bottom" secondItem="2vx-2F-NZc" secondAttribute="bottom" id="SnK-hS-Lq5"/>
+                    <constraint firstAttribute="trailing" secondItem="2vx-2F-NZc" secondAttribute="trailing" id="beM-1S-Wtv"/>
+                    <constraint firstAttribute="bottom" secondItem="rI1-bT-NwE" secondAttribute="bottom" constant="10" id="ctx-RW-d7K"/>
+                    <constraint firstItem="rI1-bT-NwE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="eSJ-rX-Mha"/>
+                    <constraint firstItem="hSY-mE-EWp" firstAttribute="leading" secondItem="rI1-bT-NwE" secondAttribute="trailing" constant="15" id="fRM-sF-3CR"/>
+                    <constraint firstItem="fSF-tF-WgG" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="m5P-YA-e4E"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="cellTitleLabel" destination="hSY-mE-EWp" id="iM0-il-qgJ"/>
+                <outlet property="nextImage" destination="fSF-tF-WgG" id="sEL-RF-HUI"/>
+            </connections>
+            <point key="canvasLocation" x="25" y="77.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Arrow" width="13" height="23"/>
+        <image name="qf_depImage" width="124" height="124"/>
+    </resources>
+</document>

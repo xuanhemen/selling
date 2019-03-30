@@ -1,0 +1,6 @@
+framework module LFProgressView {
+  umbrella header "LFProgressView-umbrella.h"
+
+  export *
+  module * { export * }
+}
